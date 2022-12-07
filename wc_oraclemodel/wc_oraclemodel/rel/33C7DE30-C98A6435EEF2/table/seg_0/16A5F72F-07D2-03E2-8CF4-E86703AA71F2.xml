@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16A5F72F-07D2-03E2-8CF4-E86703AA71F2" name="Port_Temp">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>24E8CA02-CD30-AFA7-8DD7-A64AAC19CD0D</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="port_temp_month" id="25F559FD-905F-62A4-CF98-29E178C917CF">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port's temperature in a particular month]]></commentInRDBMS>
+<generatorID>8668D76F-32EA-046D-339A-6BFA8274DF6A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_temp_average_high" id="7DF7E5B4-F148-974A-A852-F9728B6212E5">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port's average high temperature]]></commentInRDBMS>
+<generatorID>0E22E9A6-1966-F6AF-F80B-91FEB21B4EE2</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_temp_average_low" id="119610B4-2476-D33F-A3C9-E5B0995CD6DD">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port's average low temperature]]></commentInRDBMS>
+<generatorID>6C35935F-DE99-CCDA-2D51-3829D3641256</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_code" id="9F53B3FC-9FC8-B48A-572C-97FDF3CBEE1E">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port code]]></commentInRDBMS>
+<generatorID>E3867644-F465-B15F-F57C-D20F3BFFBB37</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="643DA014-B7BA-5806-80F0-9ECDBF84559E" referredColumn="045D07CC-0C27-84D9-0EDD-AD6D5D105EE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="490105DA-6A2B-E840-33FB-A50AE608661F" name="Port_Temp_PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>DEA2730E-239A-D8B2-F992-357834104D08</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25F559FD-905F-62A4-CF98-29E178C917CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FC8196C-EF48-A3F8-4A4E-66E35DB105A5" name="PORT_PORTTEMP">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>7F1E5A28-8FF1-CB49-2D22-768C96FBF83B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F53B3FC-9FC8-B48A-572C-97FDF3CBEE1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

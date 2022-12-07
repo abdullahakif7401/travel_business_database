@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDF2EE53-2219-07AE-CE7C-3B8B58A99454" name="Country">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>B290C5F4-32DB-10A1-DE8E-789CD878187A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_code" id="340E05EE-7DEC-EB6D-7E34-FF86BEA790E9">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country code]]></commentInRDBMS>
+<generatorID>00E08E04-BBCE-7E7D-370A-594EEAB48A9C</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_name" id="0CD12611-9C95-9EDA-359E-9D13811EE3D4">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country name]]></commentInRDBMS>
+<generatorID>FBCFDFEE-FD23-C231-B5FD-1C48E12A37E5</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_code" id="395D6B41-3786-0C72-C4D4-3623093B73CD">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port code]]></commentInRDBMS>
+<generatorID>455EFF98-DB45-10FC-9848-3CFA5A7C57A9</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ABBD582-3AE2-AC2E-52F7-B2B0E0B40A61" referredColumn="045D07CC-0C27-84D9-0EDD-AD6D5D105EE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66AA839C-8E1B-9682-BFA0-B2B5B600B6C4" name="Country_PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>B5EC95E7-4B1D-98DD-7925-7F0F33990D99</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="340E05EE-7DEC-EB6D-7E34-FF86BEA790E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C8A2D89-E700-2D11-E81B-FB97384895AF" name="Country__IDX">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>306A6BF0-CD6C-8F51-9303-3A0F2CC7BFCE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="395D6B41-3786-0C72-C4D4-3623093B73CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F82C5863-B8F7-CBB7-D157-791F41E24788" name="PORT_COUNTRY">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>306A6BF0-CD6C-8F51-9303-3A0F2CC7BFCE</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="395D6B41-3786-0C72-C4D4-3623093B73CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

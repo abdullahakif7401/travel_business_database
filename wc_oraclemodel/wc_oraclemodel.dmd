@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="wc_oraclemodel" id="3E261684-AF72-1934-271D-208BFA070043" version="3.5">
+<createdBy>Lin Chen Xiang</createdBy>
+<createdTime>2022-04-15 08:09:54 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3E261684-AF72-1934-271D-208BFA070043</designId>
+</OSDM_Design>

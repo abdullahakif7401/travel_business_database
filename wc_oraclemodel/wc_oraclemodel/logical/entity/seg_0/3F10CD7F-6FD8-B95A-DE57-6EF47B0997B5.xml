@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3F10CD7F-6FD8-B95A-DE57-6EF47B0997B5" name="Address">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:23:10 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address_street" id="52DCDEAC-E9E9-09F0-2D2D-7B9CAA18C2E4">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:24:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's street]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_town" id="B6C84A83-0031-B6D0-4902-EAE4BD2CE76E">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:24:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's town]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>85</dataTypeSize>
+<ownDataTypeParameters>85,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_postcode" id="FAAE7A24-81F1-E2A0-60D6-EF1BFFC005DE">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:24:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's postcode]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_country" id="3DB4799A-1C8B-1BF4-4B54-108969E91A96">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:24:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's country]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06C287DD-2147-2659-AC3F-44C7CB3E9297" name="Address PK">
+<createdBy>muhammadabdullahakif</createdBy>
+<createdTime>2022-04-18 06:31:07 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>52DCDEAC-E9E9-09F0-2D2D-7B9CAA18C2E4</attributeRef>
+<attributeRef>B6C84A83-0031-B6D0-4902-EAE4BD2CE76E</attributeRef>
+<attributeRef>FAAE7A24-81F1-E2A0-60D6-EF1BFFC005DE</attributeRef>
+<attributeRef>3DB4799A-1C8B-1BF4-4B54-108969E91A96</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

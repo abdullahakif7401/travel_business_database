@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F98903D5-3EE4-5DBF-D7E5-FC6232609D98" name="Ship">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>06B49FDF-C58B-F810-8565-F03EF3119398</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ship_code" id="B56A22E9-FA8D-AB7D-0B10-EA82B589CFB9">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ship Code]]></commentInRDBMS>
+<generatorID>EC4B4BEE-F7E4-9391-3553-332A5075C720</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_name" id="F8DEC1B0-4B8E-5969-94FD-177C7D7F4F21">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of ship]]></commentInRDBMS>
+<generatorID>9630C9DF-23F8-EE4C-A981-292A2CF3CB34</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_comm_date" id="FD37D1DB-6E6E-A583-2A7C-694E97042793">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of ship commissioned]]></commentInRDBMS>
+<generatorID>19681575-A776-790D-3188-A5BD99643B31</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_tonnage" id="AD25300E-2727-0D83-CB07-9F7F666E42C9">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tonnage of the ship]]></commentInRDBMS>
+<generatorID>16297ABC-6BE8-58BC-684C-9AB3D36CFD79</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_max_cap" id="9BC9395A-B2C2-BBCC-DA31-895886600C8F">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Maximum capacity of the ship]]></commentInRDBMS>
+<generatorID>6541DC73-CBD2-7019-322D-F0168F24685A</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_reg_country" id="FA81F0BA-3C86-C84C-9116-040E8C4A1482">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ship registered country]]></commentInRDBMS>
+<generatorID>77C5FA6A-2834-8C17-9386-4605B80C0C10</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="op_id" id="07DCDEE6-1721-26B2-11A0-26F71C0C4026">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Operator ID]]></commentInRDBMS>
+<generatorID>9E10E1F5-CFFC-0BCB-78B5-2ED524983DCC</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA8CF56E-FEF4-905E-3E94-53A712277852" referredColumn="3F43D28D-1263-3EB6-B2B5-8BBCC0BC0EDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B10A0B8-85D6-340C-8294-41E349E6EED0" name="Ship_PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>EE1A9213-5195-0247-16DB-14F4ACDA6BDA</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B56A22E9-FA8D-AB7D-0B10-EA82B589CFB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC507E22-E0E7-0BB4-5849-BE63E16CB75F" name="OPERATOR_SHIP">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>7AA2D4E2-368D-1C3F-F3B9-CC4F17334BD4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07DCDEE6-1721-26B2-11A0-26F71C0C4026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

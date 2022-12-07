@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A2368A7E-29B3-E923-9024-F83BC707CBE9" name="Stop">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:34:05 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="port_code" id="C613426F-770D-A3E1-673A-D56EC644719B">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 19:03:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port code]]></commentInRDBMS>
+<generatorID>BBC14622-6AD7-7361-0B9E-D36A80B0B610</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<referedAttribute>3299E614-DFF5-F9E4-3859-C0203CDEDB00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="6603CD05-4348-EBF2-D977-B039EEDA8843">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 19:04:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise ID]]></commentInRDBMS>
+<generatorID>84F3699C-F892-E447-C502-833544C24FF4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<referedAttribute>E58A14DB-5B9C-57B4-ED5F-58FE3ED4C3A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stop_datetime" id="03EF7AA7-1E0F-93A5-EBE3-20E0C720DF40">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:34:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Stop date and time]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stop_departorarrive" id="7C5765F5-15CE-8A4D-C46C-9162873E11D0">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:34:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Depart or arrive in stop]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<constraintName>chk_stop_departorarrive</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stop_id" id="FB9506D8-5680-11B1-BFDE-1B51CDA15EEE">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 07:37:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="890BA811-466D-34D5-6CCC-166B2DB93711" name="Stop PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:34:54 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB9506D8-5680-11B1-BFDE-1B51CDA15EEE</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="BCFA1ACD-6218-C318-A656-BABE5F9B9B73" name="Stop NK">
+<createdBy>Lin Chen Xiang</createdBy>
+<createdTime>2022-04-18 06:16:13 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<newElementsIDs>C613426F-770D-A3E1-673A-D56EC644719B,6603CD05-4348-EBF2-D977-B039EEDA8843</newElementsIDs>
+<usedAttributes>
+<attributeRef>C613426F-770D-A3E1-673A-D56EC644719B</attributeRef>
+<attributeRef>6603CD05-4348-EBF2-D977-B039EEDA8843</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

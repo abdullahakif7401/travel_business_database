@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B290C5F4-32DB-10A1-DE8E-789CD878187A" name="Country">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:47:09 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="country_code" id="00E08E04-BBCE-7E7D-370A-594EEAB48A9C">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:47:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country code]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_name" id="FBCFDFEE-FD23-C231-B5FD-1C48E12A37E5">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:47:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Country name]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="455EFF98-DB45-10FC-9848-3CFA5A7C57A9">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 19:11:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port code]]></commentInRDBMS>
+<generatorID>306A6BF0-CD6C-8F51-9303-3A0F2CC7BFCE</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<referedAttribute>3299E614-DFF5-F9E4-3859-C0203CDEDB00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5EC95E7-4B1D-98DD-7925-7F0F33990D99" name="Country PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:47:26 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00E08E04-BBCE-7E7D-370A-594EEAB48A9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

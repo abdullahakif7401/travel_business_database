@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A15A61C-F44E-D707-C75E-7712983B5565" name="Stop">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>A2368A7E-29B3-E923-9024-F83BC707CBE9</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="port_code" id="E004650E-60AC-C222-CB39-E82D0D81D6AC">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port code]]></commentInRDBMS>
+<generatorID>C613426F-770D-A3E1-673A-D56EC644719B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A575EB44-8DC2-8C3C-543F-25B954D4A23F" referredColumn="045D07CC-0C27-84D9-0EDD-AD6D5D105EE5"/>
+</associations>
+</Column>
+<Column name="cruise_id" id="1BAF845F-5B9E-0365-7FF0-640038BC072C">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cruise ID]]></commentInRDBMS>
+<generatorID>6603CD05-4348-EBF2-D977-B039EEDA8843</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F5763D9-5B79-E608-F6E9-B30E6C108519" referredColumn="1773EA98-224F-4E8C-4C31-7BEEB489B005"/>
+</associations>
+</Column>
+<Column name="stop_datetime" id="9ECE20CA-E3A0-92FA-F864-7594E36D3B5B">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Stop date and time]]></commentInRDBMS>
+<generatorID>03EF7AA7-1E0F-93A5-EBE3-20E0C720DF40</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stop_departorarrive" id="29463853-120E-70B1-8215-75A23E1691F6">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Depart or arrive in stop]]></commentInRDBMS>
+<generatorID>7C5765F5-15CE-8A4D-C46C-9162873E11D0</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<constraintName>chk_stop_departorarrive</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stop_id" id="303803EE-3FAA-B948-D678-7E7E77D55A8F">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surrogate key]]></commentInRDBMS>
+<generatorID>FB9506D8-5680-11B1-BFDE-1B51CDA15EEE</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83BE394B-4AEF-1F83-8791-C05F27BCE576" name="Stop_PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>890BA811-466D-34D5-6CCC-166B2DB93711</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="303803EE-3FAA-B948-D678-7E7E77D55A8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60381361-071A-8D6F-15DA-D8BFFCA78F60" name="Stop_NK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>BCFA1ACD-6218-C318-A656-BABE5F9B9B73</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E004650E-60AC-C222-CB39-E82D0D81D6AC"/>
+<colUsage columnID="1BAF845F-5B9E-0365-7FF0-640038BC072C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93B825A6-4257-959B-4F70-0AA7D99000D8" name="CRUISE_STOP">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>84F3699C-F892-E447-C502-833544C24FF4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BAF845F-5B9E-0365-7FF0-640038BC072C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1880C325-962A-8F5A-A9C2-0D146603ECC6" name="PORT_STOP">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>BBC14622-6AD7-7361-0B9E-D36A80B0B610</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E004650E-60AC-C222-CB39-E82D0D81D6AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

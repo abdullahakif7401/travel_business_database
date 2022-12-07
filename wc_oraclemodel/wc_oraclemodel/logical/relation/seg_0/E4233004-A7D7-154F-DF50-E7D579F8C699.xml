@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASSENGER_GUARDIAN" directorySegmentName="seg_0" id="E4233004-A7D7-154F-DF50-E7D579F8C699">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 19:22:22 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="33C7DE30-CA5C-5D0A-9DBF-C98A6435EEF2" value="true"/>
+</engineerTo>
+<targetPk>13428F18-24AD-D5FA-2AEE-7199BC9EF6AA</targetPk>
+<identifying>false</identifying>
+<nameOnSource>guardian of</nameOnSource>
+<nameOnTarget>  </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B428389-7B44-6A61-7767-DE240BFCF929</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1B428389-7B44-6A61-7767-DE240BFCF929</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

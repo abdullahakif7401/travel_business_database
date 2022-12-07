@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24E8CA02-CD30-AFA7-8DD7-A64AAC19CD0D" name="Port_Temp">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:44:42 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="port_temp_month" id="8668D76F-32EA-046D-339A-6BFA8274DF6A">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:44:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port's temperature in a particular month]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_temp_average_high" id="0E22E9A6-1966-F6AF-F80B-91FEB21B4EE2">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:44:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port's average high temperature]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_temp_average_low" id="6C35935F-DE99-CCDA-2D51-3829D3641256">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:44:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port's average low temperature]]></commentInRDBMS>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="E3867644-F465-B15F-F57C-D20F3BFFBB37">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 19:02:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Port code]]></commentInRDBMS>
+<generatorID>7F1E5A28-8FF1-CB49-2D22-768C96FBF83B</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<referedAttribute>3299E614-DFF5-F9E4-3859-C0203CDEDB00</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEA2730E-239A-D8B2-F992-357834104D08" name="Port_Temp PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 18:45:31 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8668D76F-32EA-046D-339A-6BFA8274DF6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D6F8E02-27C9-CC43-6FD6-658E88428D1E" name="Address">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>3F10CD7F-6FD8-B95A-DE57-6EF47B0997B5</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_street" id="BDC00D07-B371-795C-BE09-EF5BBCABA2FC">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's street]]></commentInRDBMS>
+<generatorID>52DCDEAC-E9E9-09F0-2D2D-7B9CAA18C2E4</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_town" id="8A6231A3-2F50-0A20-519E-4E5EF7870325">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's town]]></commentInRDBMS>
+<generatorID>B6C84A83-0031-B6D0-4902-EAE4BD2CE76E</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>85</dataTypeSize>
+<ownDataTypeParameters>85,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_postcode" id="E17FB262-0AFD-1B5C-C301-5D6A2316CEC5">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's postcode]]></commentInRDBMS>
+<generatorID>FAAE7A24-81F1-E2A0-60D6-EF1BFFC005DE</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_country" id="EA5F34E5-FFC5-4157-B65B-44C203C93A54">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Address's country]]></commentInRDBMS>
+<generatorID>3DB4799A-1C8B-1BF4-4B54-108969E91A96</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F910B942-B035-3A66-4EC9-44E78F074DF2" name="Address_PK">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-18 09:04:18 UTC</createdTime>
+<generatorID>06C287DD-2147-2659-AC3F-44C7CB3E9297</generatorID>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDC00D07-B371-795C-BE09-EF5BBCABA2FC"/>
+<colUsage columnID="8A6231A3-2F50-0A20-519E-4E5EF7870325"/>
+<colUsage columnID="E17FB262-0AFD-1B5C-C301-5D6A2316CEC5"/>
+<colUsage columnID="EA5F34E5-FFC5-4157-B65B-44C203C93A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

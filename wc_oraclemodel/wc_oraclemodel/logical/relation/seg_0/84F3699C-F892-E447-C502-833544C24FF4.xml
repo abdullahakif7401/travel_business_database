@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CRUISE_STOP" directorySegmentName="seg_0" id="84F3699C-F892-E447-C502-833544C24FF4">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 19:04:00 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<sourcePk>17AFFC12-4D6E-09BA-5C92-A618E4390F94</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>makes</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92AEC5F4-23D5-E1A6-0D51-6FBB1283DFF3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A2368A7E-29B3-E923-9024-F83BC707CBE9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

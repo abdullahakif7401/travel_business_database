@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PORT_STOP" directorySegmentName="seg_0" id="BBC14622-6AD7-7361-0B9E-D36A80B0B610">
+<createdBy>hendersonteow</createdBy>
+<createdTime>2022-04-15 19:03:24 UTC</createdTime>
+<ownerDesignName>wc_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="A4D7BDA1-96C5-2654-F761-0D07F248F6D1" value="true"/>
+</engineerTo>
+<sourcePk>B5F725EE-B663-2DEA-F349-FFF9365A96AA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>facilitates</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C6776D5-10D9-901A-C283-110A86BD71F0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A2368A7E-29B3-E923-9024-F83BC707CBE9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
